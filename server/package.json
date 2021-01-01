@@ -1,0 +1,14 @@
+{
+  "name": "budget-planner",
+  "version": "1.0.0",
+  "description": "Simple application to manage budget",
+  "main": "index.js",
+  "repository": "https://github.com/dmarkus/budget-planner.git",
+  "author": "dmarkus",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "graphql": "^15.4.0"
+  }
+}
