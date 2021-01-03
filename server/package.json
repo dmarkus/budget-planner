@@ -7,8 +7,13 @@
   "author": "dmarkus",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
+  },
   "dependencies": {
     "apollo-server": "^2.19.1",
-    "graphql": "^15.4.0"
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.6"
   }
 }
