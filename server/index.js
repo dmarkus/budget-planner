@@ -1,4 +1,4 @@
-const { ApolloSconst typeDefs = require('./src/schema');erver } = require('apollo-server');
+const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./src/schema');
 
 const server = new ApolloServer({ typeDefs });
